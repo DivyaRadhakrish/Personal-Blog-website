@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+ 
+}
+
+.banner{
+
+
+    width: 100%;
+    height: 160vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.40)), url(../Images/cup.jpg);
+    
+    background-size: cover;
+    background-image: center;
+
+}
+
+.navbar{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.navbar a{
+    text-decoration:none;
+    color: lavenderblush;
+    position: relative;
+}
+
+.navbar a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px ;
+    position: absolute;
+   background: palevioletred;
+   transition: 0.5s;
+
+}
+
+.navbar a:hover:after{
+    width: 100%;
+
+}
+
+.container{
+    width: 100%;
+    color: lavenderblush;
+    
+}
+
+.container h1{
+
+    font-size: 5rem;
+    text-align: center;
+    
+    margin-bottom: 50px;
+    
+  height:20vh;
+ 
+    color: #fcedd8;
+    
+       font-family: 'Niconne', cursive;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939, 
+              30px 30px 0px #c11a2b, 
+              35px 35px 0px #c11a2b, 
+              40px 40px 0px #c11a2b, 
+              45px 45px 0px #c11a2b;
+}
+
+
+
+
+.subhead{
+    
+    text-align: center;
+    text-shadow:  2px 2px 0px #eb452b ;
+    color:#fcedd8;
+    
+    font-family: 'Niconne', cursive;
+    font-style: italic;
+   
+}
+
+.quotes{
+   
+    margin: 10px;
+    padding: 40px;
+    color:lavenderblush;
+    text-align: start;
+}
+
+.about{
+    margin: 10px;
+    padding: 40px;
+   color: snow;
+    text-align: start;
+
+}
+
+
+footer{
+    display: flex;
+    font-size: 10px;
+    background-color: black;
+   
+    color:blanchedalmond;
+    line-height: 5;
+    
+   position: sticky;
+   top: 100%;
+}
+
+
+
+
+
+.socials{
+    display: flex;
+    list-style: none;
+   margin-left: 170px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.socials ul li{
+    margin: 0 10px;
+  
+}
+
+.socials a{
+ text-decoration: none;
+
+}
+
+
+.copyright-text{
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      }
+
+
+      .fa {
+        padding: 17px;
+        font-size: 30px;
+        width: 10px;
+       
+        height: min-content;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 100%;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        body {
+          display: grid;
+          font-size: 20px;
+        }
+      }
+      
